@@ -8,9 +8,23 @@
     margin-left: 50px;
 }
 
+@media(max-width: 450px) {
+    #logo {
+        width: 90px;
+    }
+}
+
+
 #titulo-menu-superior {
     margin-left: 172px;
     margin-top: 80px;
+}
+
+@media(max-width: 450px) {
+    #titulo-menu-superior{
+        font-size: 15px;
+        margin: 35px 0px 0px 80px;
+    }
 }
 
 #texto-menu-superior{
@@ -19,10 +33,20 @@
     padding-bottom: 100px;
 }
 
+@media (max-width: 450px) {
+    #texto-menu-superior{
+        margin: 8px 0px 0px 80px;
+        font-size: 13px;
+    }
+}
+
 #menu-superior{
     background-image: url(Imagens/Banner.svg);
+    width: 100%;
     color:white;
 }
+
+
 
 #menu-informacional{
     background-color: #eaece5;
@@ -36,16 +60,46 @@
     padding: 15px;
 }
 
+@media (max-width: 450px) {
+    .icone {
+        margin-left: 8%;
+        width: 20px;
+        padding-left: 0px;
+    }
+}
+
 .texto-informativo{
     display: flex;
     align-items: center;
 }
 
+@media(max-width: 450px) {
+    .texto-informativo{
+        font-size: 12px;
+    }
+}
+
 #depoimentos{
-    margin: 50px 0px 0px 50px;
+    margin: 0px 0px 0px 10px;
     display: grid;
-    grid-auto-flow: column;
-    columns: auto;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+@media (min-width: 1024px) {
+    #depoimentos{
+        margin: 25px 0px 25px 0px;
+        display: grid;
+        grid-auto-flow: column;
+        columns: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    #video {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 #titulo-depoimento{
@@ -55,6 +109,17 @@
 
 #texto-depoimento{
     margin: 20px 0px 0px 0px;
+}
+
+@media (max-width: 450px){
+    #titulo-depoimento {
+        font-size: 25px;
+        margin: 50px 0px 0px 15px;
+    }
+    #texto-depoimento {
+        margin: 0% 0% 4% 15px;
+        font-size: 12px;
+    }
 }
 
 
