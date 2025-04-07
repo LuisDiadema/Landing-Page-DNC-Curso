@@ -103,7 +103,7 @@
 
 #titulo-depoimento{
     color: #247ba0;
-    margin-top: 50px;
+    margin-top: 25%;
 }
 
 #texto-depoimento{
@@ -121,6 +121,9 @@
     }
 }
 
+#video{
+    margin: 50px 25px 50px 100px;
+}
 
 #avaliacoes{
     background-color: #247ba0;
@@ -131,10 +134,7 @@
     color: white;
     text-align: center;
     font-size: 25px;
-}
-
-#video{
-    margin: 50px 25px 50px 100px;
+    margin-bottom: 3%;
 }
 
 #div-cards{
@@ -143,12 +143,12 @@
     justify-content: space-evenly;
 }
 
-.card{
-    margin: 50px 0px 0px 0px;
-}
-
 #seta-direita{
     display: none;
+}
+
+.seta{
+    cursor: pointer;
 }
 
 #Bruna{
@@ -156,8 +156,17 @@
     
 }
 
-.seta{
-    cursor: pointer;
+@media (max-width: 450px){
+    #Leonardo{
+        width: 75%;
+    }
+    #Samantha{
+        width: 75%;
+        display: none;
+    }
+    #Bruna{
+        width: 75%;
+    }
 }
 
 .seta:hover{

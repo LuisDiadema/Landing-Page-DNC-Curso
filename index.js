@@ -6,7 +6,7 @@ var SetaEsquerda = window.document.getElementById("seta-esquerda")
 
 
     function direita(){
-        SetaDireita.style = "display: flex;  margin-top: 55px"
+        SetaDireita.style = "display: flex"
         SetaEsquerda.style = "display: none"
         Leonardo.style = "display: none"
         Bruna.style = "display: flex"
